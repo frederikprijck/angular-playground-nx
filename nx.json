@@ -1,0 +1,27 @@
+{
+  "npmScope": "my-nx-workspace",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "my-app": {
+      "tags": ["app"]
+    },
+    "my-app-e2e": {
+      "tags": []
+    },
+    "my-lib": {
+      "tags": ["lib"]
+    },
+    "playground2": {
+      "tags": []
+    },
+    "playground2-e2e": {
+      "tags": []
+    }
+  }
+}
